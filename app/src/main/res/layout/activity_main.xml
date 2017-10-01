@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/scrollViewStyle"
+    tools:context="com.example.android.singlescreenapp2.MainActivity">
+
+    <RelativeLayout style="@style/RelativeLayoutStyle">
+
+        <ImageView
+            style="@style/MainImageView"
+            android:contentDescription="@string/fresh_products"
+            android:src="@drawable/bio_market" />
+
+        <ImageView
+            style="@style/BrandImageView"
+            android:contentDescription="@string/brand_icon"
+            android:src="@drawable/image" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/greenHouseBioMarket"
+                style="@style/BusinessNameStyle"
+                android:paddingTop="@dimen/paddingTopBusiness"
+                android:text="@string/Green_House_BioMarket"
+                android:textColor="@color/whiteColor" />
+
+            <TextView
+                style="@style/SloganTextView"
+                android:text="@string/Your_Healthy_Spot"
+                android:textColor="@color/whiteColor" />
+
+            <TextView
+                android:id="@+id/getTheLatest"
+                style="@style/SubscriptionStyle"
+                android:layout_marginLeft="@dimen/layout_marginLeftSubscription"
+                android:layout_marginRight="@dimen/layout_marginRightSubscription"
+                android:layout_marginTop="@dimen/layout_marginTopSubscription"
+                android:text="@string/Get_the_latest_information_abou_new_products_services_and_promotions_straight_to_your_inbox"
+                android:textColor="@color/whiteColor" />
+
+            <Button
+                style="@style/NewsletterStyle"
+                android:layout_marginBottom="@dimen/layout_marginBottomButton"
+                android:background="@drawable/button"
+                android:text="@string/Newsletter" />
+
+            <TextView
+                style="@style/ContactInfo"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:paddingTop="@dimen/paddingTopInfo"
+                android:text="@string/_Kithnou_Street_Athens_10274"
+                android:textColor="@color/whiteColor" />
+
+            <TextView
+                style="@style/ContactInfo"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:paddingTop="@dimen/paddingTopInfo"
+                android:text="@string/_302168009090" />
+
+            <TextView
+                style="@style/ContactInfo"
+                android:autoLink="email"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:paddingTop="@dimen/paddingTopInfo"
+                android:text="@string/green.house_gmail.com" />
+
+            <TextView
+                style="@style/ContactInfo"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/ic_public_black_24dp"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:paddingTop="@dimen/paddingTopInfo"
+                android:text="@string/www.greenhousebiomarket.com" />
+
+            <TextView
+                style="@style/ContactInfo"
+                android:drawableLeft="@drawable/ic_query_builder_black_24dp"
+                android:paddingTop="@dimen/paddingTopInfo"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:drawablePadding="@dimen/drawablePadding"
+                android:text="@string/_Monday_Friday_9_00_21_00_nSaturday_9_00_15_00"
+                android:textColor="@color/whiteColor" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+

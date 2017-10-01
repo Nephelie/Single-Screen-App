@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Business Name TextView dimensions.-->
+    <dimen name="paddingTopBusiness">30dp</dimen>
+
+    <!-- Subscription TextView dimensions.-->
+    <dimen name="layout_marginLeftSubscription">15dp</dimen>
+    <dimen name="layout_marginRightSubscription">15dp</dimen>
+    <dimen name="layout_marginTopSubscription">80dp</dimen>
+
+    <!--Newsletter Button dimensions.-->
+    <dimen name="layout_marginBottomButton">80dp</dimen>
+
+    <!--Contact Information TextView dimensions.-->
+    <dimen name="paddingTopInfo">5dp</dimen>
+    <dimen name="drawablePadding">10dp</dimen>
+    <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="paddingBottomInfo">5dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Green House</string>
+
+    <!--Contact Informations Texts.-->
+    <string name="www.greenhousebiomarket.com">www.greenhousebiomarket.com</string>
+    <string name="green.house_gmail.com">green.house@gmail.com</string>
+    <string name="_302168009090">+302168009090</string>
+    <string name="_Kithnou_Street_Athens_10274">26A Kithnou Street, Athens 10274</string>
+    <string name="_Monday_Friday_9_00_21_00_nSaturday_9_00_15_00">Monday-Friday: 9:00-21:00 \nSaturday: 9:00-15:00</string>
+
+    <!--Newsletter Subscription Texts.-->
+    <string name="Newsletter">Newsletter</string>
+    <string name="Get_the_latest_information_abou_new_products_services_and_promotions_straight_to_your_inbox">Get the latest information about new products, services and promotions straight to your inbox</string>
+
+    <!--Business Name and Slogan Text.-->
+    <string name="Your_Healthy_Spot">Your Healthy Spot</string>
+    <string name="Green_House_BioMarket">Green House BioMarket</string>
+
+    <!--Content Description.-->
+    <string name="fresh_products">fresh products</string>
+    <string name="brand_icon">brand icon</string>
+
+</resources>
